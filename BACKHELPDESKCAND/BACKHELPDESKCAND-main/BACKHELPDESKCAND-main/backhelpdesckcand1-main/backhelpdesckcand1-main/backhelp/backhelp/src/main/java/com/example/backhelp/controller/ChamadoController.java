@@ -21,6 +21,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/chamados")
+@CrossOrigin(origins = "*")
 public class ChamadoController {
 
     private final ChamadoService chamadoService;
